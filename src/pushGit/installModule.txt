@@ -1,0 +1,36 @@
+npm create vite@latest
+npm install react-router-dom
+npm install react
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+    /** @type {import('tailwindcss').Config} */
+    export default {
+    content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    }
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+npm install -D sass
+npm install node-sass
+npm install swiper
+npm install swr
+npm install prop-types
+npm i react-paginate
+npm install react-error-boundary
+
+npm i yup
+npm i formik
+npm i uuid
+npm install formik --save
+npm i boostrap
+
+*Code splitting
+Lazy load components:
+npm run build
